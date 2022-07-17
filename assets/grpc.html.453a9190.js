@@ -1,0 +1,8 @@
+import{_ as a,o as s,c as n,d as e}from"./app.c570db55.js";const t={},o=e(`<h1 id="grpc" tabindex="-1"><a class="header-anchor" href="#grpc" aria-hidden="true">#</a> grpc</h1><h2 id="\u547D\u4EE4" tabindex="-1"><a class="header-anchor" href="#\u547D\u4EE4" aria-hidden="true">#</a> \u547D\u4EE4</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>protoc  --proto_path<span class="token operator">=</span>./api <span class="token punctuation">\\</span>
+        --proto_path<span class="token operator">=</span>./third_party <span class="token punctuation">\\</span>
+        --go_out<span class="token operator">=</span>paths<span class="token operator">=</span>source_relative:./api <span class="token punctuation">\\</span>
+        --go-http_out<span class="token operator">=</span>paths<span class="token operator">=</span>source_relative:./api <span class="token punctuation">\\</span>
+        --go-grpc_out<span class="token operator">=</span>paths<span class="token operator">=</span>source_relative:./api <span class="token punctuation">\\</span>
+        --openapi_out<span class="token operator">==</span>paths<span class="token operator">=</span>source_relative:. <span class="token punctuation">\\</span>
+        api/xxx.proto
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,3),p=[o];function r(c,i){return s(),n("div",null,p)}var d=a(t,[["render",r],["__file","grpc.html.vue"]]);export{d as default};

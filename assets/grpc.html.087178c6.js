@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8eb426bc","path":"/grpc.html","title":"grpc","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"\u547D\u4EE4","slug":"\u547D\u4EE4","children":[]}],"git":{"updatedTime":1658027750000},"filePathRelative":"grpc.md"}');export{e as data};
